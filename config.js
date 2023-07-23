@@ -15,7 +15,7 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || 'demote',
   SESSION_ID: process.env.SESSION_ID || 'Nm1pVEh_XASENA_xd3Y=',
   LANG: process.env.LANG || 'EN',
-  HANDLERS: process.env.HANDLER === 'false' || process.env.HANDLER === '!',
+  HANDLERS: process.env.HANDLER === 'false' || process.env.HANDLER === 'null' ? '^' : '^[!]',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: 'master',
   PACKNAME: process.env.PACKNAME || 'X-asena',
