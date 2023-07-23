@@ -1,5 +1,4 @@
-{
-  "name": "x-asena",
+{  "name": "x-asena",
   "version": "2.0.0",
   "description": "Whatsapp Bot",
   "main": "index.js",
@@ -22,6 +21,7 @@
     "x-asena": "^1.0.1"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
