@@ -110,9 +110,9 @@ async function Xasena() {
           let comman = text_msg
             ? text_msg[0].toLowerCase() + text_msg.slice(1).trim()
             : "";
-       /*   msg.prefix = new RegExp(config.HANDLERS).test(text_msg)
+          msg.prefix = new RegExp(config.HANDLERS).test(text_msg)
             ? text_msg[0].toLowerCase()
-            : ","; */
+            : ",";
 
           let whats;
           switch (true) {
