@@ -22,12 +22,12 @@ module.exports = {
   WELCOME_MSG: process.env.WELCOME_MSG || 'Hi @user Welcome to @gname',
   GOODBYE_MSG: process.env.GOODBYE_MSG || 'Hi @user It was Nice Seeing you',
   AUTHOR: process.env.AUTHOR || 'X-electra',
-  SUDO: process.env.SUDO || '98602239106,918811074852',
+  SUDO: process.env.SUDO || '918602239106,918811074852',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || 'xasenabot',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '92a8cdb4-6b85-4b0c-a023-9429c8e579ca',
   OWNER_NAME: process.env.OWNER_NAME || 'OLDUSER',
   BOT_NAME: process.env.BOT_NAME || 'X-asena',
-  WORK_TYPE: process.env.WORK_TYPE || 'private',
+  WORK_TYPE: process.env.WORK_TYPE || 'public',
   DATABASE_URL: DATABASE_URL,
   DATABASE: DATABASE_URL === './assets/database.db'
     ? new Sequelize({
