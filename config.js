@@ -27,7 +27,7 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '92a8cdb4-6b85-4b0c-a023-9429c8e579ca',
   OWNER_NAME: process.env.OWNER_NAME || 'OLDUSER',
   BOT_NAME: process.env.BOT_NAME || 'X-asena',
-  WORK_TYPE: process.env.WORK_TYPE || 'public',
+  WORK_TYPE: process.env.WORK_TYPE || 'private',
   DATABASE_URL: DATABASE_URL,
   DATABASE: DATABASE_URL === './assets/database.db'
     ? new Sequelize({
