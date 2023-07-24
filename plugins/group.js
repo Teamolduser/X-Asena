@@ -18,11 +18,11 @@ command(
     if (!isadmin) return await message.reply("_I'm not admin_");
     let jid = parsedJid(match);
     const res = await message.add(jid);
-    if (res == '403') return await message.send('☹️ Iski maa ka Maru me ab 😪😒 chalo ruko retry karta hu 🥱😴');
+ /*   if (res == '403') return await message.send('☹️ Iski maa ka Maru me ab 😪😒 chalo ruko retry karta hu 🥱😴');
     await delay(1000)
 		if (res == '403') return await message.send('_Failed, Invite sent_');
 		else if (res && res != '200')
-			return await message.send(res, { quoted: message.data });
+			return await message.send(res, { quoted: message.data });*/
     return await message.reply(`@${jid[0].split("@")[0]} added`, {
       mentions: jid,
     });
