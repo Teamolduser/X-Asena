@@ -23,7 +23,6 @@ command(
 		if (res == '403') return await message.send('_Failed, Invite sent_');
 		else if (res && res != '200')
 			return await message.send(res, { quoted: message.data });
-  }
     return await message.reply(`@${jid[0].split("@")[0]} added`, {
       mentions: jid,
     });
