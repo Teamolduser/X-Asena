@@ -1,6 +1,6 @@
 const { command, isPrivate } = require("../lib/");
 const { isAdmin, parsedJid } = require("../lib");
-const { delay } = require("@wishkeysocket/baileys")
+const { delay } = require("@whiskeysockets/baileys")
 
 command(
   {
